@@ -1,0 +1,209 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  /* left: 0;
+  right: 0; */
+  align-items: center;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+
+  align-items: center;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+header li a:hover {
+  color: red;
+}
+header .Nav {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 10px 0; */
+}
+header .search {
+  background: transparent;
+  position: relative;
+  width: 300px;
+  background: none;
+  border: 2px solid rgb(194, 31, 31);
+  border-radius: 10px;
+  outline: none;
+  height: 30px;
+}
+header .search:hover {
+  color: aliceblue;
+}
+header .search input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: aliceblue;
+  background: transparent;
+  margin: 5px;
+  padding: 0 10px 0 40px;
+  border: none;
+  outline: none;
+}
+header .search input::placeholder {
+  color: rgb(194, 31, 31);
+}
+header .search .fa-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(194, 31, 31);
+  left: 10px;
+}
+body {
+  background-color: #121412;
+}
+.poster {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0px;
+}
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.para {
+  padding: 10px;
+}
+
+td {
+  color: rgb(238, 239, 239);
+}
+p {
+  padding: 5px;
+  color: rgb(238, 239, 239);
+}
+h1 {
+  color: rgb(238, 239, 239);
+  padding: 10px;
+}
+th {
+  color: rgb(238, 239, 239);
+}
+.modelsImg {
+  padding: 0;
+}
+.modelsImg img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: black;
+  height: 220px;
+}
+.footer li {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.footer li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer li a:hover {
+  color: red;
+}
+.footer a {
+  padding: 5px;
+}
+.footer td a {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 5px 0px;
+}
+.footer td a:hover {
+  color: red;
+}
+.footer th {
+  padding: 20px 0px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.footer th:hover {
+  color: aqua;
+}
+/* .fa-magnifying-glass:before,
+.fa-search:before {
+  content: "\f002";
+  width: 100%;
+  color: red;
+} */
+.ImgContainer {
+  width: 400px;
+}
+/* *******grid***** */
+.container {
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container img:hover {
+  text-shadow: 5px 0px 5px red;
+}
+.container > div {
+  border: 2px solid rgb(53, 53, 53);
+  margin: 20px;
+  padding: 10px;
+  /* text-align: center; */
+}
+section {
+  padding: 10px;
+}
+/* .container img:hover {
+  width: 450px;
+} */
+.conhd h1 {
+  font-weight: 900;
+}
+.conhd h1:hover {
+  color: red;
+  text-shadow: 5px 5px 5px rgb(46, 41, 41);
+}
+div .modelsImg img:hover {
+  transition: ;
+}
+@media (max-width: 991px) {
+  header {
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+  .container {
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .poster img {
+    width: 928px;
+  }
+}
+@media (max-width: 600px) {
+  header .search {
+    width: 100%;
+  }
+}
