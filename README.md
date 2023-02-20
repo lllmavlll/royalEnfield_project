@@ -1,5 +1,6 @@
 # royalEnfield_project
-Tried creating The Royal Enfield website clone using my HTMl, CSS knowledge/Skills.
+I have created The Royal Enfield website clone using my HTMl, CSS knowledge/Skills.
+It's not exactly same as the official Royal Enfield website. A simple blog kind off website about the Royal Enfield bikes. Because i like Royal Enfield bikes. 
 
 I Didn't use any javascript to this work as of now. I may add few features in the future, but not sure about it for now
 
