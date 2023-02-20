@@ -188,7 +188,7 @@ section {
 div .modelsImg img:hover {
   transition: ;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   header {
     padding: 10px 20px;
     flex-direction: column;
@@ -202,8 +202,15 @@ div .modelsImg img:hover {
     width: 928px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header .search {
     width: 100%;
+  }
+  header ul {
+    justify-content: center;
+  }
+  .footer table {
+    display: flex;
+    flex-direction: column;
   }
 }
