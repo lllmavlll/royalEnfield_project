@@ -115,6 +115,10 @@ th {
   background-color: black;
   height: 220px;
 }
+.footer table {
+  width: 100%;
+}
+
 .footer li {
   list-style: none;
   text-decoration: none;
@@ -130,6 +134,7 @@ th {
 .footer a {
   padding: 5px;
 }
+
 .footer td a {
   text-decoration: none;
   color: aliceblue;
@@ -141,8 +146,9 @@ th {
 .footer th {
   padding: 20px 0px;
   text-align: left;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer th:hover {
   color: aqua;
@@ -186,7 +192,7 @@ section {
   text-shadow: 5px 5px 5px rgb(46, 41, 41);
 }
 div .modelsImg img:hover {
-  transition: ;
+  transition: 0.5s;
 }
 @media (max-width: 1024px) {
   header {
