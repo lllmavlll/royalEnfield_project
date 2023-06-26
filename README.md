@@ -18,7 +18,7 @@ https://lllmavlll.github.io/royalEnfield_project/
 ![Screenshot (68)](https://github.com/lllmavlll/royalEnfield_project/assets/104993092/93a86c92-d5b6-4c06-ab7e-87ecd2fa2021)
 
 
-# It is also responsive
+# It's also responsive
 
 ## Laptop View
 
