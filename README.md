@@ -9,7 +9,7 @@ To view the website, open the index.html file in a web browser of your choice. Y
 
 You can go ahead and explore the website and navigate through its different sections. The website is designed to be responsive, so you can also view it on other devices and screen sizes.
 
-To view the page live, click on the link below
+To view the page live, click on the link.
 https://lllmavlll.github.io/royalEnfield_project/
 
 
